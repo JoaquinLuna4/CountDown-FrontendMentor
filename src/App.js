@@ -12,7 +12,7 @@ export default function App() {
 	const NOW_IN_MS = new Date().getTime();
 
 	const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
-	console.log();
+
 	return (
 		<div className="component_container">
 			<h1 className="title center">We're launching soon</h1>
@@ -22,14 +22,26 @@ export default function App() {
 					<img className="" src={pattern} alt="facebook" />
 				</a>
 				<div className="social_container">
-					<a href="facebook.com">
-						<img className="social_img" src={iconfacebook} alt="facebook" />
+					<a href="https://www.facebook.com/">
+						<img
+							className="social_img"
+							src={iconfacebook}
+							alt="facebook logo"
+						/>
 					</a>
-					<a href="facebook.com">
-						<img className="social_img" src={iconpinterest} alt="facebook" />
+					<a href="https://www.pinterest.com/">
+						<img
+							className="social_img"
+							src={iconpinterest}
+							alt="pinterest logo"
+						/>
 					</a>
-					<a href="facebook.com">
-						<img className="social_img" src={iconinstagram} alt="facebook" />
+					<a href="https://www.instagram.com/">
+						<img
+							className="social_img"
+							src={iconinstagram}
+							alt="instagram logo"
+						/>
 					</a>
 				</div>
 			</footer>
